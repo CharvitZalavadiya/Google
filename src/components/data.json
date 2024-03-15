@@ -1,0 +1,9 @@
+{
+    "tabName": "Learn",
+    "cards": [
+        {
+            "name": "Coursera",
+            "img": "../assets/coursera.png"
+        }
+    ]
+}

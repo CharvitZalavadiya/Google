@@ -5,7 +5,7 @@ import axios from "axios";
 
 function App() {
 
-  axios.defaults.baseURL = "http://localhost:4040"
+  axios.defaults.baseURL = "https://google-home.onrender.com/"
 
   return (
     <>

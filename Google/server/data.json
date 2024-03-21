@@ -1,0 +1,234 @@
+{
+    "tabName": {
+        "Learn" : [
+            {
+                "name": "Coursera",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/coursera.png?alt=media&token=690430e1-f9d0-4aad-9fe8-e521a1cd3bd5",
+                "link": "https://www.coursera.org"
+            },
+            {
+                "name": "Roadmap",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/roadmap.png?alt=media&token=76c96b28-67d6-4c69-a53e-1b4b07e02386",
+                "link": "https://roadmap.sh/"
+            },
+            {
+                "name": "GFG",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/gfg.png?alt=media&token=a0e48eef-af14-42e7-8ff7-530148e8812a",
+                "link": "https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=gfg&matchtype=e&campaignid=20039445781&adgroup=147845288105&gad_source=1&gclid=CjwKCAjw7-SvBhB6EiwAwYdCAeGa5-vYp8ZLdQs_sqoNuexjxEXdI4Ck_isbtAGRplBjOIVMOzBBJRoCdAwQAvD_BwE"
+            },
+            {
+                "name": "W3 Schools",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/w3.png?alt=media&token=1a6677f2-d63b-47a9-82e1-ee4c49e79ced",
+                "link": "https://www.w3schools.com/"
+            },
+            {
+                "name": "TailwindCSS",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/tcss.jpg?alt=media&token=f9014f44-b75d-4e2e-b311-e7d6cc5c2b25",
+                "link": "https://tailwindcss.com/"
+            }
+        ],
+        "Design" : [
+            {
+                "name": "Figma",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/figma.png?alt=media&token=c753e3c0-4471-4ba3-b03d-5955b22e8312",
+                "link": "https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1269239465722491977"
+            },
+            {
+                "name": "WebFlow",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/webflow.jpg?alt=media&token=40370ff4-8d5f-4195-9481-e6957d72c991",
+                "link": "https://webflow.com/dashboard?workspace=charvits-workspace"
+            },
+            {
+                "name": "Spline",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/spline.jpg?alt=media&token=6f5d4d20-a186-4c71-9495-4af9f662c2a0",
+                "link": "https://app.spline.design/home"
+            },
+            {
+                "name": "UI Zard",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/uizard.jpg?alt=media&token=dde64a1f-437d-439c-957e-989526e56a85",
+                "link": "https://app.uizard.io/prototypes"
+            },
+            {
+                "name": "FlowPonent",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/flowponent.png?alt=media&token=085fb216-2cd8-4a5c-ad55-744a06dfe6f7",
+                "link": "https://www.flowponent.com/"
+            },
+            {
+                "name": "FigComponent",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/figcomponent.png?alt=media&token=515b227a-f6c7-4999-bbf9-f905404e727a",
+                "link": "https://www.figcomponents.com/"
+            },
+            {
+                "name": "Wix Studio",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/wix.png?alt=media&token=61617378-83dc-4301-8672-a6f3b9fa531a",
+                "link": "https://manage.wix.com/studio/sites?referralInfo=sidebar&viewId=all-items-view"
+            },
+            {
+                "name": "UI Verse",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/uiverse.png?alt=media&token=1a76563c-0040-438b-8e9f-fba1a40544b1",
+                "link": "https://uiverse.io/"
+            },
+            {
+                "name": "CodePen",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/codepen.png?alt=media&token=b7b0fad3-90a8-4716-a935-ef4cbc9f70f3",
+                "link": "https://codepen.io/trending"
+            }
+        ],
+        "Google" : [
+            {
+                "name": "Drive",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/drive.png?alt=media&token=466f64da-11e9-4bfc-952f-adf1dcc3c34a",
+                "link": "https://drive.google.com/drive/my-drive"
+            },
+            {
+                "name": "Meet",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/meet.png?alt=media&token=6ce32570-0c32-4e92-8596-43a81901237c",
+                "link": "https://meet.google.com/"
+            },
+            {
+                "name": "YouTube",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/youtube.png?alt=media&token=65286d9d-a05f-4bd1-bf85-c7a77af0d7d0",
+                "link": "https://www.youtube.com/"
+            },
+            {
+                "name": "Gmail",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/gmail.png?alt=media&token=cc174bbe-2daf-4eda-8446-bd6f2fb7107f",
+                "link": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+            },
+            {
+                "name": "Maps",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/maps.png?alt=media&token=1b046364-34fe-4efb-90c7-62764942dc53",
+                "link": "https://www.google.com/maps/@23.1547465,72.674234,15z?entry=ttu"
+            },
+            {
+                "name": "Fonts",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/fonts.png?alt=media&token=f3084bfd-0079-4859-9378-ba247b8d906c",
+                "link": "https://fonts.google.com/"
+            },
+            {
+                "name": "Calender",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/calendar.png?alt=media&token=a81189df-940d-44b2-947b-b9ca1e1fd20d",
+                "link": "https://calendar.google.com/calendar/u/0/r?pli=1"
+            },
+            {
+                "name": "Translate",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/translate.png?alt=media&token=2146fb3b-9e59-4ff3-b1f2-da650f495b45",
+                "link": "https://translate.google.co.in/"
+            }
+        ],
+        "Tools" : [
+            {
+                "name": "ChatGPT",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/chatgpt.png?alt=media&token=8e565d1f-8287-4cba-91af-2476b4798b57",
+                "link": "https://chat.openai.com/"
+            },
+            {
+                "name": "Gemini",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/Gemini.png?alt=media&token=40fdf67a-e704-40f1-a177-83e4e4201c9b",
+                "link": "https://gemini.google.com/app"
+            },
+            {
+                "name": "QuillBot",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/quillbot.jpg?alt=media&token=11808895-189a-49e7-a88f-5a8a0a026591",
+                "link": "https://quillbot.com/"
+            },
+            {
+                "name": "RemoveBG",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/removebg.png?alt=media&token=71d3fab5-d60e-4d06-86a9-ba71d5611540",
+                "link": "https://www.remove.bg/upload"
+            },
+            {
+                "name": "Sejda",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/sejda.png?alt=media&token=6190db57-beb0-41c8-bcbc-e93e5f20fd12",
+                "link": "https://www.sejda.com/"
+            },
+            {
+                "name": "WhatsApp",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/whatsapp.png?alt=media&token=f742eb76-6255-4473-ad83-4017de4647b1",
+                "link": "https://web.whatsapp.com/"
+            },
+            {
+                "name": "Telegram",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/telegram.png?alt=media&token=ea32acb8-42b6-464c-baec-700f706e0eb0",
+                "link": "https://web.telegram.org/k/"
+            },
+            {
+                "name": "Pinterest",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/pinterest.png?alt=media&token=657ebfc8-b859-46ae-a0ba-83c2593a7c67",
+                "link": "https://in.pinterest.com/"
+            },
+            {
+                "name": "Animista",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/animista.jpg?alt=media&token=cf5a5898-0bb1-4522-a1a1-60d10fa30494",
+                "link": "https://animista.net/play"
+            },
+            {
+                "name": "WebCode",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/webcode.png?alt=media&token=b576b1ac-ef5e-48e8-a83d-c68a4663e0fe",
+                "link": "https://webcode.tools/?utm_content=cmp-true"
+            },
+            {
+                "name": "FlatIcon",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/falticon.png?alt=media&token=a18fec90-de55-451c-939f-3b4bf0ff6cd1",
+                "link": "https://www.flaticon.com/"
+            },
+            {
+                "name": "Icons8",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/icons8.png?alt=media&token=a57b7b61-7e5d-425d-a9e1-8254ce21b33e",
+                "link": "https://icons8.com/"
+            }
+        ],
+        "Code" : [
+            {
+                "name": "HackerRank",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/hackerrank.png?alt=media&token=16baa054-ac48-469f-a7e6-deddd6dda9a3",
+                "link": "https://www.hackerrank.com/profile/charvitzalavadi1"
+            },
+            {
+                "name": "LeetCode",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/leetcode.png?alt=media&token=567843c7-393c-4ff4-89d4-df8ab275d4ac",
+                "link": "https://leetcode.com/Charvit_Zalavadiya/"
+            },
+            {
+                "name": "Project IDX",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/idx.png?alt=media&token=1aef3bec-5600-4e55-a380-e31c21abf881",
+                "link": "https://idx.google.com/"
+            },
+            {
+                "name": "CodeChef",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/codechef.jpg?alt=media&token=49e632c5-b49b-44ee-84d5-92af3f32ee68",
+                "link": "https://www.codechef.com/learn"
+            },
+            {
+                "name": "Netlify",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/netlify.png?alt=media&token=e191cacd-15f7-4cfd-b6fc-54c413e1aaa9",
+                "link": "https://app.netlify.com/teams/charvitzalavadiya777/overview"
+            },
+            {
+                "name": "Render",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/render.png?alt=media&token=73190b78-b756-47fc-8d71-7eea62271b8b",
+                "link": "https://dashboard.render.com/"
+            },
+            {
+                "name": "GitHub",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/github.png?alt=media&token=eb4be17b-a5ed-40bf-9554-0b357968a44c",
+                "link": "https://github.com/CharvitZalavadiya/"
+            },
+            {
+                "name": "LinkedIn",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/linkedin.png?alt=media&token=c5d4dc88-2254-4eab-a967-1731ad146d7e",
+                "link": "https://idx.google.com/"
+            },
+            {
+                "name": "Fire Base",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/firebase.png?alt=media&token=7ba9e71b-ae0d-4252-9a63-5c5bd735d3cf",
+                "link": "https://console.firebase.google.com/u/0/?_gl=1*sm4isr*_ga*MTAzMDkwNTczNi4xNzEwODM5Njgw*_ga_CW55HF8NVT*MTcxMTAyNjc0Ni4yLjEuMTcxMTAyNjg0MC40OS4wLjA."
+            },
+            {
+                "name": "Mongo DB",
+                "img": "https://firebasestorage.googleapis.com/v0/b/landing-page-5915b.appspot.com/o/mongo.png?alt=media&token=6dd362e6-36cf-491e-ab82-c3105302ca89",
+                "link": "https://cloud.mongodb.com/v2/65b7d5dcfd56c66d464a9edf#/overview"
+            }
+        ]
+    }
+}

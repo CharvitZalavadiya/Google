@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "variables";
+
+* {
+  inset: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+body {
+  @include flex;
+  width: 100vw;
+  height: 100dvh;
+  font-family: "Poppins";
+  font-size: 20px;
+  background-image: url("../assets/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  align-content: end;
+}
+
+.main {
+  @include flex;
+  width: 100vw;
+}
+
+.left {
+  width: 25vw;
+  height: 100vh;
+
+  .name {
+    @include flex;
+    @include fontStyle(1.5rem, "semibold");
+    width: 87%;
+    height: auto;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: $popup-bg;
+    flex-direction: row;
+
+    img {
+      width: 60px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      margin-right: 30px;
+    }
+
+    span {
+      width: 60%;
+      color: $font-name-color;
+    }
+  }
+}
+
+.center {
+  @include flex;
+  width: 50vw;
+
+  .text {
+    @include fontStyle(2.5rem, "bold");
+    display: block;
+    width: 50vw;
+    height: fit-content;
+    position: absolute;
+    text-align: center;
+    margin: 10px 25vw;
+    background: $font-gradient-color;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.right {
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+
+  .dtql {
+    @include flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: start;
+    margin: 15px;
+
+    .date-time {
+      @include fontStyle(1.5rem, "semibold");
+      width: auto;
+      height: auto;
+      padding: 15px;
+      text-align: end;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      background-color: $popup-bg;
+      color: $font-color;
+    }
+
+    .quick-links {
+      width: auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(20px, 40px);
+      gap: 10px;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      background-color: $popup-bg;
+      color: $font-color;
+      padding: 5px;
+
+      a {
+        @include flex;
+        width: auto;
+        height: 40px;
+      }
+
+      img {
+        @include flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      &:hover > :not(:hover) {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.tab-bar {
+  @include flex;
+  flex-direction: column;
+  width: 45vw;
+  max-width: 45vw;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 1vh;
+  padding: 3px 5px;
+  backdrop-filter: blur(10px);
+  overflow-x: scroll;
+  position: fixed;
+  margin: 87vh 27.5vw;
+
+  .tab {
+    @include flex;
+    @include fontStyle(1rem, "semibold");
+    width: auto;
+    height: calc(font-size + 20px);
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: $font-color;
+    background: $tab-gradient;
+    flex-direction: row;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  &:hover > :not(:hover) {
+    opacity: 0.7;
+  }
+
+  .tab:nth-child(1) {
+    color: $font-green-color;
+  }
+
+  .tab:nth-child(2) {
+    color: $font-orange-color;
+  }
+
+  .tab:nth-child(3) {
+    color: $font-blue-color;
+  }
+
+  .tab:nth-child(4) {
+    color: $font-white-color;
+  }
+
+  .tab:nth-child(5) {
+    color: $font-pink-color;
+  }
+}
+
+.folderPopupArea {
+  @include flex;
+  width: 50vw;
+  height: calc(100vh - 60px);
+
+  .folderPopup {
+    @include flex;
+    width: 45vw;
+    height: 400px;
+    background-color: $popup-bg;
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 20px;
+    flex-direction: row;
+
+    .tab-info {
+      @include flex;
+      @include fontStyle(2rem, "semibold");
+      width: 100%;
+      height: 15%;
+      justify-content: start;
+      padding-left: 40px;
+      background-color: $popup-tabname-bar-bg;
+      align-items: center;
+    }
+  }
+
+  .popupTabs {
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(20px, 80px);
+    gap: 20px;
+    overflow-y: scroll;
+
+    .popupCard {
+      @include fontStyle(1rem, "light");
+      width: auto;
+      height: 80px;
+      padding: 10px;
+      background: $tab-gradient;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      opacity: 0;
+      animation: cardentry 1s cubic-bezier(0.175, 0.885, 0.42, 0.875) forwards;
+      animation-delay: 0.5s;
+      animation-iteration-count: 1;
+
+      &:hover {
+        background: $tab-gradient-reverse;
+      }
+
+      .popupCardImage {
+        width: 30px;
+        height: 30px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 7px;
+        margin-bottom: 5px;
+      }
+
+      .popupCardName {
+        color: rgba(245, 245, 245, 0.8);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-$font-color: rgba(255, 255, 255, 0.8);
+$font-color: rgba(255, 255, 255, 0.9);
 $font-green-color: #00ffd5;
 $font-orange-color: #ff2f00;
 $font-blue-color: #1aa5f6;
@@ -84,4 +84,95 @@ $tab-gradient-reverse: linear-gradient(
     transform: translateY(00px) scale(1);
     opacity: 1;
   }
+}
+
+@keyframes name {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes tabBar {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes tabs {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes date-time {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes quick-links-1 {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes quick-links-3 {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes quick-links-ai {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes letter {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateX(00px);
+    opacity: 1;
+    filter: blur(0px);
+  }
+
 }

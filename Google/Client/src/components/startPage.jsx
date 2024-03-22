@@ -9,6 +9,12 @@ import yt from "../assets/youtube.png";
 import wa from "../assets/whatsapp.png";
 import gh from "../assets/github.png";
 import drv from "../assets/drive.png";
+import lnkdn from "../assets/linkedin.png";
+import blflx from "../assets/bollyflix.png";
+import sjd from "../assets/sejda.png";
+import chtgpt from "../assets/chatgpt.png";
+import gml from "../assets/gmail.png";
+import gmn from "../assets/Gemini.png";
 
 const StartPage = () => {
   const [activeTab, setActiveTab] = useState("");
@@ -84,6 +90,10 @@ const StartPage = () => {
           <img src={avtr} alt="Avtar" />
           <span>Charvit Zalavadiya</span>
         </div>
+
+        <div className="date-time">
+          <DateTime />
+        </div>
       </div>
       <div className="center">
         <span className="text">Radhe Krishna</span>
@@ -141,7 +151,7 @@ const StartPage = () => {
       </div>
       <div className="right">
         <div className="dtql">
-          <div className="quick-links">
+          <div className="quick-links ql1">
             <a href="https://web.whatsapp.com/">
               <img src={wa} alt="WhatsApp" />
             </a>
@@ -156,8 +166,28 @@ const StartPage = () => {
             </a>
           </div>
 
-          <div className="date-time">
-            <DateTime />
+          <div className="quick-links ai ql2">
+            <a href="https://chat.openai.com/">
+              <img src={chtgpt} alt="ChatGPT" />
+            </a>
+            <a href="https://gemini.google.com/app">
+              <img src={gmn} alt="Gemini" />
+            </a>
+          </div>
+
+          <div className="quick-links ql3">
+            <a href="https://www.linkedin.com/in/charvitzalavadiya/">
+              <img src={lnkdn} alt="LinkedIn" />
+            </a>
+            <a href="https://bollyflix.nexus/">
+              <img src={blflx} alt="BollyFlix" />
+            </a>
+            <a href="https://www.sejda.com/pdf-editor">
+              <img src={sjd} alt="Sejda" />
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+              <img src={gml} alt="Gmail" />
+            </a>
           </div>
         </div>
       </div>
